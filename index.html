@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset='utf-8' />
+      <title>Okonomiyaki in NYC 🥢</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <link href='css/styles.css' rel='stylesheet' />
+  </head>
+  <body>
+
+<div id='sidebar'>
+    <div id="header"><h1>Some Places to Eat Okonomiyaki in NYC 🥢</h1></div>
+
+    <p align="justify">Okonomiyaki is a Japanese savory pancake made from a wheat-flour-based batter
+      and topped with a variety of ingredients depending on your preference.
+      Okonomiyaki originated in Osaka, but is now a popular street food throughout Japan.</p>
+    <p  align="justify">
+      This delicious dish has slowly made its way to the States, and today there are
+      many places to try okonomiyaki in NYC. </p>
+<center>
+    <img src="okonomiyaki.png" style="max-width:125px;"></center>
+
+    <p>📍 Click a marker in the map or explore the restaurant list
+      below to find a local restaurant where you can try okonomiyaki.</p>
+
+    <hr/>
+
+    <div class="borough">Manhattan</div>
+    <button class='flyto-button' id="bargoto">Bar Goto</button>
+    <br/>
+
+    <button class='flyto-button' id="dokodomo">DokoDomo</button>
+    <br/>
+
+    <button class='flyto-button' id="donburiya">Donburiya</button>
+    <br/>
+
+    <button class='flyto-button' id="hanamichi">HanahMichi</button>
+    <br/>
+
+    <button class='flyto-button' id="ivan">Ivan Ramen</button>
+    <br/>
+
+    <button class='flyto-button' id="kenka">Kenka</button>
+    <br/>
+
+    <button class='flyto-button' id="otafuku">Otafuku</button>
+    <br/>
+
+    <button class='flyto-button' id="sunrise">Sunrise Mart</button>
+    <br/>
+
+    <div class="borough">Brooklyn</div>
+    <button class='flyto-button' id="shalom">Shalom Japan</button>
+    <br/>
+
+    <div class="borough">Queens</div>
+    <button class='flyto-button' id="muramen">Mu Ramen</button>
+    <br/>
+
+</div>
+
+<div id='map-container'></div>
+
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src='js/data.js'></script>
+    <script src='js/scripts.js'></script>
+
+  </body>
+</html>
