@@ -21,8 +21,9 @@ var map = new mapboxgl.Map(initOptions);
 // add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
+let markers = {};
 restaurData.forEach(function(restaurEntry) {
-  new mapboxgl.Marker()
+  markers[`${restaurEntry.name}`] = new mapboxgl.Marker()
     .setLngLat([restaurEntry.longitude, restaurEntry.latitude])
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
     .setHTML(`<div class="markerbg">${restaurEntry.name}</div>
@@ -32,27 +33,31 @@ restaurData.forEach(function(restaurEntry) {
     .addTo(map);
 })
 
+console.log(markers);
 
 
 $('#otafuku').on('click', function() {
   map.flyTo({
     center: [-73.988463, 40.729659],
     zoom: 19
-  })
+  });
+  markers.Otafuku.togglePopup();
 })
 
 $('#sunrise').on('click', function() {
   map.flyTo({
     center: [-73.980736, 40.752396],
     zoom: 16
-  })
+  });
+  markers['Sunrise Mart'].togglePopup();
 })
 
 $('#ivan').on('click', function() {
   map.flyTo({
     center: [-73.9845, 40.720777],
     zoom: 16
-  })
+  });
+  markers['Ivan Ramen'].togglePopup();
 })
 
 $('#bargoto').on('click', function() {
