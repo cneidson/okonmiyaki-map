@@ -1,7 +1,6 @@
 var restaurData = [
   {
     "name": "Otafuku",
-    "borough": "Manhatten",
     "longitude": -73.988463,
     "latitude": 40.729659,
     "address":"220 E 9th St",
@@ -10,7 +9,6 @@ var restaurData = [
   },
   {
     "name": "Sunrise Mart",
-    "borough": "Manhatten",
     "longitude": -73.980736,
     "latitude": 40.752396,
     "address":"12 E 41st St",
@@ -19,7 +17,6 @@ var restaurData = [
   },
   {
     "name": "Ivan Ramen",
-    "borough": "Manhatten",
     "longitude": -73.9845,
     "latitude": 40.720777,
     "address":"25 Clinton St",
@@ -37,7 +34,6 @@ var restaurData = [
   },
   {
     "name": "Bar Goto",
-    "borough": "Manhatten",
     "longitude": -73.989525,
     "latitude": 40.722992,
     "address":"245 Eldridge St",
@@ -47,7 +43,6 @@ var restaurData = [
   },
   {
     "name": "HanaMichi",
-    "borough": "Manhatten",
     "longitude": -73.987024,
     "latitude": 40.747828,
     "address":"28 W 32nd St",
