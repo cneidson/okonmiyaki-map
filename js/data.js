@@ -25,7 +25,6 @@ var restaurData = [
   },
   {
     "name": "Shalom Japan",
-    "borough": "Brooklyn",
     "longitude": -73.955794,
     "latitude": 40.709352,
     "address":"310 S 4th St",
@@ -51,8 +50,7 @@ var restaurData = [
 
   },
   {
-    "name": "Kenka ",
-    "borough": "Manhatten",
+    "name": "Kenka",
     "longitude": -73.988464,
     "latitude": 40.729143,
     "address":"25 St Marks Pl",
@@ -62,7 +60,6 @@ var restaurData = [
   },
   {
     "name": "DokoDomo",
-    "borough": "Manhatten",
     "longitude": -73.989645,
     "latitude": 40.726584,
     "address":"89 E 4th St",
@@ -73,7 +70,6 @@ var restaurData = [
   },
   {
     "name": "Donburiya",
-    "borough": "Manhatten",
     "longitude": -73.983025,
     "latitude": 40.766292,
     "address":"253 W 55th St",
